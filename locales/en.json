@@ -1,0 +1,54 @@
+{
+    "nav-about": "About Me",
+    "nav-projects": "Projects",
+    "nav-contact": "Contact",
+    
+    "hero-desc": "Web development at the intersection of design and logic.",
+    "hero-cta": "View my work",
+    
+    "about-title": "About Me",
+    "about-subtitle": "Software Developer",
+    "about-lead": "Hi, I'm Ameli. I combine logic with design to build web applications that convince through usability and clean JavaScript code.",
+    "about-text": "Privately, I'm a fan of deep stories, whether in Psy-Fi novels or timeless classics. Since I can get enthusiastic about almost anything, you'll usually find me working on a new project; my life motto is a constant 'Work in Progress'.",
+    "btn-resume": "Download Resume (PDF)",
+    
+    "skills-title": "My Skills & Tools",
+    
+    "time-harvard-date": "Nov 2025 - Jan 2026",
+    "time-harvard-role": "Introduction to Computer Science",
+    "time-harvard-desc": "Intensive entry into computer science concepts. Topics: C, Python, SQL, JS, HTML, Algorithms, Data Structures & Web Development.",
+    
+    "time-rathaus-date": "Jan 2025 - Oct 2025",
+    "time-rathaus-title": "City Treasury",
+    "time-rathaus-role": "Financial Management & Organization",
+    "time-rathaus-desc": "Execution of bookings, administrative management, and optimization of internal processes.",
+    
+    "time-roedl-date": "May 2024 - Oct 2024",
+    "time-roedl-role": "Audit Intern",
+    "time-roedl-desc": "Focus on accounts receivable & payable auditing. Participation in process optimization meetings and client appointments.",
+    
+    "time-finanzamt-date": "Jan 2023 - Feb 2023",
+    "time-finanzamt-desc": "Processing objections regarding property tax reform & complaint management.",
+    
+    "time-deka-date": "May 2022 - Nov 2022",
+    "time-deka-role": "Working Student Compliance",
+    "time-deka-desc": "Capital Market & Real Estate Compliance. Responsibility for master data maintenance and data analysis.",
+        
+    "time-early-title": "Previous Stations",
+    "time-early-desc": "Various activities in logistics (DHL), bartending, controlling (Bauknecht) and Sales (Henzler). Focus: Organization, data maintenance, and teamwork.",
+    
+    "projects-title": "Work and Projects",
+    "projects-subtitle": "Frontend Experiments",
+    
+    "proj-1-title": "My Personal Website",
+    "proj-1-desc": "A responsive website without frameworks, built with HTML, CSS, and JS. Feel free to check the code on GitHub.",
+    
+    "proj-2-desc": "Your personal reading cloud. An aesthetic web app to track books without third-party tracking. With Google Books API connection and local storage.",
+    
+    "proj-3-title": "Zen Breather",
+    "proj-3-desc": "A minimalist web app for relaxation. Simulates a breathing rhythm using CSS animations and JavaScript timing logic.",
+    
+    "contact-title": "Get in touch",
+    "contact-text": "I am always open for new projects, job offers, or simply a nice exchange about code and other ideas.",
+    "contact-btn": "Send me an email"
+}

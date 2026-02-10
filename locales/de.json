@@ -1,0 +1,54 @@
+{
+    "nav-about": "Über mich",
+    "nav-projects": "Projekte",
+    "nav-contact": "Kontakt",
+    
+    "hero-desc": "Webentwicklung an der Schnittstelle von Design und Logik.",
+    "hero-cta": "Meine Arbeiten ansehen",
+    
+    "about-title": "Über mich",
+    "about-subtitle": "Software Entwicklerin",
+    "about-lead": "Hi, mein Name ist Ameli. Ich verbinde Logik mit Design, um Webanwendungen zu bauen, die durch Usability und sauberen JavaScript-Code überzeugen.",
+    "about-text": "Privat bin ich ein Fan von tiefgründigen Geschichten, egal ob in Psy-Fi-Romanen oder zeitlosen Klassikern. Da ich mich für fast alles begeistern kann, findet man mich eigentlich immer an einem neuen Projekt; mein Lebensmotto ist ein ständiges 'Work in Progress'.",
+    "btn-resume": "Lebenslauf downloaden (PDF)",
+    
+    "skills-title": "Meine Skills & Tools",
+    
+    "time-harvard-date": "Nov 2025 - Jan 2026",
+    "time-harvard-role": "Introduction to Computer Science",
+    "time-harvard-desc": "Intensiver Einstieg in die Konzepte der Informatik. Themen: C, Python, SQL, JS, HTML, Algorithmen, Datenstrukturen & Webentwicklung.",
+    
+    "time-rathaus-date": "Jan 2025 - Okt 2025",
+    "time-rathaus-title": "Rathaus Kämmerei",
+    "time-rathaus-role": "Finanzmanagement & Organisation",
+    "time-rathaus-desc": "Durchführung von Buchungen, administrative Verwaltung und Optimierung interner Abläufe.",
+    
+    "time-roedl-date": "Mai 2024 - Okt 2024",
+    "time-roedl-role": "Praktikum Wirtschaftsprüfung",
+    "time-roedl-desc": "Prüfungsschwerpunkte in Debitoren- & Kreditorenbuchhaltung. Teilnahme an Meetings zur Prozessoptimierung und Termine mit Mandanten.",
+    
+    "time-finanzamt-date": "Jan 2023 - Feb 2023",
+    "time-finanzamt-desc": "Bearbeitung von Einsprüchen zur Grundsteuerreform & Beschwerdemanagement.",
+    
+    "time-deka-date": "Mai 2022 - Nov 2022",
+    "time-deka-role": "Werkstudentin Compliance",
+    "time-deka-desc": "Kapitalmarkt & Immobilien Compliance. Verantwortung für Stammdatenpflege und Datenauswertung.",
+     
+    "time-early-title": "Frühere Stationen",
+    "time-early-desc": "Verschiedene Tätigkeiten in Logistik (DHL), Bartending und Controlling (Bauknecht) und Sales (Henzler). Fokus: Organisation, Datenpflege und Teamarbeit.",
+    
+    "projects-title": "Arbeiten und Projekte",
+    "projects-subtitle": "Frontend-Experimente",
+    
+    "proj-1-title": "Meine eigene Website",
+    "proj-1-desc": "Eine responsive Webseite ohne Frameworks, gebaut mit HTML, CSS und JS. Bei Interesse zum Code gerne über GitHub einsehen.",
+    
+    "proj-2-desc": "Deine persönliche Lese-Cloud. Eine ästhetische Web-App, um Bücher zu tracken, ohne Tracking durch Dritte. Mit Google Books API Anbindung und lokalem Speicher.",
+    
+    "proj-3-title": "Zen Breather",
+    "proj-3-desc": "Eine minimalistische Web-App zur Entspannung. Simuliert einen Atem-Rhythmus mit CSS-Animationen und JavaScript-Timing-Logik.",
+    
+    "contact-title": "Get in touch",
+    "contact-text": "Ich bin immer offen für neue Projekte, Jobangebote oder einfach einen netten Austausch über Code und andere Ideen.",
+    "contact-btn": "Schreib mir eine Mail"
+}

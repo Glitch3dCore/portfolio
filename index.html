@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Ameli Weller. Frontend Development, Design and Code. Explore my projects and get in touch.">
+    <title>Amelis Portfolio</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <link rel="stylesheet" href="css/icons.css">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Ameli Weller</div>
+
+            <div class="hamburger" id="hamburger-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-key="nav-about">Über mich</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-key="nav-projects">Projekte</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-key="nav-contact">Kontakt</a>
+                </li>
+                
+                <li class="nav-item lang-switch">
+                    <button id="btn-de" class="lang-btn">DE</button>
+                    <button id="btn-en" class="lang-btn">EN</button>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="hero-content">
+    
+            <h1 class="hero-title">Ameli Weller</h1>
+            
+            <h2 class="hero-subtitle">Code & Consciousness</h2>
+            
+            <p class="hero-text" data-key="hero-desc">
+                Webentwicklung an der Schnittstelle von Design und Logik.
+            </p>
+
+        </div>
+    </header>
+
+    <main>
+        
+        <section id="about" class="section-padding">
+            <div class="about-container">
+        
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="images/IMG_2871.JPG" alt="Ameli Weller">
+                    </div>
+            
+                    <div class="about-text">
+                        <h3 data-key="about-title">Über mich</h3>
+                        <h4 class="highlight-text" data-key="about-subtitle">Software Entwicklerin</h4>
+                        <p class="lead" data-key="about-lead">Hi, mein Name ist Ameli. Ich verbinde Logik mit Design, um Webanwendungen zu bauen, die durch Usability und sauberen JavaScript-Code überzeugen.</p>
+                        <p data-key="about-text">Privat bin ich ein Fan von tiefgründigen Geschichten, egal ob in Psy-Fi-Romanen oder zeitlosen Klassikern. Da ich mich für fast alles begeistern kann, findet man mich eigentlich immer an einem neuen Projekt; mein Lebensmotto ist ein ständiges 'Work in Progress'.</p> 
+                
+                        <a href="assets/lebenslauf.pdf" download="Lebenslauf_Ameli_Weller.pdf" class="button-outline" data-key="btn-resume">
+                            Lebenslauf downloaden (PDF)
+                        </a>
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <h4 data-key="skills-title">Meine Skills & Tools</h4>
+                    <div class="skills-wrapper">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">APIs</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+
+                <div class="timeline-section">
+                    <div class="timeline">
+                        
+                        <div class="timeline-item">
+                            <span class="date" data-key="time-harvard-date">Nov 2025 - Jan 2026</span>
+                            <h5>Harvard University (CS50)</h5>
+                            <p>
+                                <strong data-key="time-harvard-role">Introduction to Computer Science</strong><br>
+                                <span data-key="time-harvard-desc">Intensiver Einstieg in die Konzepte der Informatik. Themen: C, Python, SQL, JS, HTML, Algorithmen, Datenstrukturen & Webentwicklung.</span>
+                            </p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="date" data-key="time-rathaus-date">Jan 2025 - Okt 2025</span>
+                            <h5 data-key="time-rathaus-title">Rathaus Kämmerei</h5>
+                            <p>
+                                <strong data-key="time-rathaus-role">Finanzmanagement & Organisation</strong><br>
+                                <span data-key="time-rathaus-desc">Durchführung von Buchungen, administrative Verwaltung und Optimierung interner Abläufe.</span>
+                            </p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="date" data-key="time-roedl-date">Mai 2024 - Okt 2024</span>
+                            <h5>Rödl & Partner (Berlin)</h5>
+                            <p>
+                                <strong data-key="time-roedl-role">Praktikum Wirtschaftsprüfung</strong><br>
+                                <span data-key="time-roedl-desc">Prüfungsschwerpunkte in Debitoren- & Kreditorenbuchhaltung. Teilnahme an Meetings zur Prozessoptimierung und Termine mit Mandanten.</span>
+                            </p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="date" data-key="time-finanzamt-date">Jan 2023 - Feb 2023</span>
+                            <h5>Finanzamt Geislingen</h5>
+                            <p>
+                                <span data-key="time-finanzamt-desc">Bearbeitung von Einsprüchen zur Grundsteuerreform & Beschwerdemanagement.</span>
+                            </p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="date" data-key="time-deka-date">Mai 2022 - Nov 2022</span>
+                            <h5>DekaBank (Frankfurt a.M.)</h5>
+                            <p>
+                                <strong data-key="time-deka-role">Werkstudentin Compliance</strong><br>
+                                <span data-key="time-deka-desc">Kapitalmarkt & Immobilien Compliance. Verantwortung für Stammdatenpflege und Datenauswertung.</span>
+                            </p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="date">2016 - 2020</span>
+                            <h5 data-key="time-early-title">Frühere Stationen</h5>
+                            <p>
+                                <span data-key="time-early-desc">Verschiedene Tätigkeiten in Logistik (DHL), Bartending und Controlling (Bauknecht). Fokus: Organisation, Datenpflege und Teamarbeit.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding">
+            <h3 data-key="projects-title">Arbeiten und Projekte</h3>
+            <h4 data-key="projects-subtitle">Frontend-Experimente</h4>
+    
+            <div class="projects-grid">
+        
+                <article class="project-card">
+                    <div class="card-image" style="background-image: url('images/project-portfolio.png');"></div>
+                    <div class="card-content">
+                        <h5 data-key="proj-1-title">Meine eigene Website</h5>
+                        <p data-key="proj-1-desc">Eine responsive Webseite ohne Frameworks, gebaut mit HTML, CSS und JS.</p>
+                        <div class="card-links">
+                            <a href="https://github.com/glitch3dcore/portfolio" target="_blank">GitHub Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="card-image" style="background-image: url('images/project-skyshelf.png');"></div>
+                    <div class="card-content">
+                        <h5>SkyShelf</h5>
+                        <p data-key="proj-2-desc">Deine persönliche Lese-Cloud. Eine ästhetische Web-App, um Bücher zu tracken, ohne Tracking durch Dritte. Mit Google Books API Anbindung.</p>
+                        <div class="card-links">
+                            <a href="https://glitch3dcore.github.io/skyshelf/" target="_blank">Live Demo</a>
+                            <a href="https://github.com/glitch3dcore/skyshelf" target="_blank">Code</a>
+                            <a href="https://youtu.be/vQhg7IANPJw" target="_blank">Video</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="card-image zen-fix" style="background-image: url('images/project-zen.png');"></div>
+                    
+                    <div class="card-content">
+                        <h5 data-key="proj-3-title">Zen Breather</h5>
+                        <p data-key="proj-3-desc">Eine CSS-animierte Meditations-Hilfe.</p>
+                        
+                        <div class="card-links">
+                            <a href="https://github.com/Glitch3dCore/zen-breather" target="_blank">GitHub</a>
+                            
+                            <a href="https://glitch3dcore.github.io/zen-breather/" target="_blank">Live App</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding">
+            <div class="contact-container">
+                <div class="contact-text">
+                    <h3 data-key="contact-title">Get in touch</h3>
+                    <p data-key="contact-text">
+                        Ich bin immer offen für neue Projekte, Jobangebote oder einfach einen netten Austausch über Code und andere Ideen.
+                    </p>
+                    <a href="mailto:ameliweller@gmx.de" class="button cta-button">
+                        <i class="fa-solid fa-envelope"></i> <span data-key="contact-btn">Schreib mir eine Mail</span>
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/glitch3dcore" target="_blank" class="social-card">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ameli-weller-676baa29b" target="_blank" class="social-card">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Ameli Weller. Built with ❤️ and code.</p>
+            <div class="footer-links">
+                <a href="impressum.html">Impressum</a>
+                <span style="margin: 0 10px; color: #555;">|</span>
+                <a href="datenschutz.html">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
